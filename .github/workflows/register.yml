@@ -30,7 +30,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data.json captures/
+          git add data.json images/
           git commit -m "Add new screenshot and update data.json" || echo "No changes to commit"
           git push
 
