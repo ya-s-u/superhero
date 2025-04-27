@@ -1,5 +1,10 @@
 [
   {
+    "title": "Simplify compliance with Google | Checks",
+    "description": "Discover an easier path to compliance with Google. Checks takes the guesswork out of building safer products by bringing privacy and engineering teams together through automated analysis.",
+    "url": "https://checks.google.com/"
+  },
+  {
     "title": "CodSpeed: Optimize Performance, Eliminate Regressions",
     "description": "CodSpeed integrates into dev and CI workflows to measure performance, detect regressions, and enable actionable optimizations.",
     "url": "https://codspeed.io/"
