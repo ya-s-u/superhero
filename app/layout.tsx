@@ -11,6 +11,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Superhero",
   description: "Superhero - A Collection of SaaS hero designs",
+  openGraph: {
+    images: '/ogp.jpg',
+  },
 };
 
 export default function RootLayout({
