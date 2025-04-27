@@ -39,13 +39,14 @@ jobs:
           git push
 
       - name: Close related issue
-        uses: actions/github-script@v7
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            await github.rest.issues.update({
-              owner: context.repo.owner,
-              repo: context.repo.name,
-              issue_number: context.payload.issue.number,
-              state: 'closed',
-            });
+          uses: actions/github-script@v7
+          with:
+            github-token: ${{ secrets.GITHUB_TOKEN }}
+            script: |
+              const issue_number = github.context.payload.issue.number;
+              await github.rest.issues.update({
+                owner: github.context.repo.owner,
+                repo: github.context.repo.repo,
+                issue_number,
+                state: 'closed',
+              });
