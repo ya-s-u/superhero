@@ -46,7 +46,6 @@ jobs:
             await github.rest.issues.update({
               owner: context.repo.owner,
               repo: context.repo.name,
-              issue_number: context.issue.number,
+              issue_number: context.payload.issue.number,
               state: 'closed',
             });
-
