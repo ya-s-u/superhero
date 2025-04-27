@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${geistMono.className} antialiased bg-white dark:bg-black`}
+        className={`${geistMono.className} antialiased bg-slate-50 dark:bg-black`}
       >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           {children}
