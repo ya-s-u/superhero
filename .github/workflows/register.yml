@@ -33,3 +33,16 @@ jobs:
           git add data.json captures/
           git commit -m "Add new screenshot and update data.json" || echo "No changes to commit"
           git push
+
+      - name: Close related issue
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.name,
+              issue_number: context.issue.number,
+              state: 'closed',
+            });
+
