@@ -1,5 +1,10 @@
 [
   {
+    "title": "CodSpeed: Optimize Performance, Eliminate Regressions",
+    "description": "CodSpeed integrates into dev and CI workflows to measure performance, detect regressions, and enable actionable optimizations.",
+    "url": "https://codspeed.io/"
+  },
+  {
     "title": "Ably: The definitive realtime experience platform of the internet.",
     "description": "Power everything from live chat to data broadcast - reliably, securely, and at serious scale with Ably. The largest WebSocket-based pub/sub platform.",
     "url": "https://ably.com/"
