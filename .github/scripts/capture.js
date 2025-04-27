@@ -26,7 +26,7 @@ const captureUrl = `https://api.screenshotone.com/take?access_key=${accessKey}&u
 const captureDarkUrl = `https://api.screenshotone.com/take?access_key=${accessKey}&url=${encodeURIComponent(url)}&format=jpg&block_ads=true&block_cookie_banners=true&block_banners_by_heuristics=false&block_trackers=true&delay=0&timeout=60&dark_mode=true&response_type=by_format&image_quality=80`;
 
 const host = new URL(url).host;
-const savePath = `captures/${host}`;
+const savePath = `public/captures/${host}`;
 
 fs.mkdirSync(savePath, { recursive: true });
 

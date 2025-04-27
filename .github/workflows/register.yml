@@ -1,4 +1,4 @@
-name: Register
+name: ci
 
 on:
   issues:
@@ -6,7 +6,7 @@ on:
       - opened
 
 jobs:
-  capture_screenshot:
+  register:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
