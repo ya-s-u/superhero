@@ -33,7 +33,7 @@ export const Site = ({ title, url }: Props) => {
         />
       </SpotlightCard>
       <div className="pointer-events-none absolute inset-0 hidden group-hover:flex items-center justify-center transition duration-300">
-        <ExternalLink size={30} color="white" className="shadow-xl" />
+        <ExternalLink size={24} color="white" className="shadow-xl" />
       </div>
     </Link>
   )
