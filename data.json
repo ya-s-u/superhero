@@ -1,5 +1,10 @@
 [
   {
+    "title": "Payload: The Next.js Headless CMS and App Framework",
+    "description": "Built with TypeScript and React, Payload is an open-source headless CMS and application framework. Build anything.",
+    "url": "https://payloadcms.com/"
+  },
+  {
     "title": "Scanbot SDK – On-Device Intelligence for Mobile Data Capture",
     "description": "Discover our Barcode Scanning SDK, Document Scanning SDK, or Data Capture SDK – based on On-Device Intelligence for fast, secure, and reliable mobile scanning.",
     "url": "https://scanbot.io/"
