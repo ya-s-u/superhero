@@ -1,5 +1,10 @@
 [
   {
+    "title": "Evidence - Business Intelligence as Code",
+    "description": "Evidence is an open source, code-based alternative to drag-and-drop BI tools. Build polished data products with just SQL and markdown.",
+    "url": "https://evidence.dev/"
+  },
+  {
     "title": "Seline - simple and private website analytics platform",
     "description": "Seline is a simple & private website and product analytics platform. Easy to use, no cookies, no personal data collected. Intuitive Google Analytics alternative",
     "url": "https://seline.com/"
