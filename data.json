@@ -1,5 +1,10 @@
 [
   {
+    "title": "HyperDX - Affordable full-stack production debugging & monitoring.",
+    "description": "",
+    "url": "https://www.hyperdx.io/"
+  },
+  {
     "title": "Payload: The Next.js Headless CMS and App Framework",
     "description": "Built with TypeScript and React, Payload is an open-source headless CMS and application framework. Build anything.",
     "url": "https://payloadcms.com/"
