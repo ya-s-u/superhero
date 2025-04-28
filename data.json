@@ -1,5 +1,10 @@
 [
   {
+    "title": "Reweb — The visual builder for developers",
+    "description": "The visual builder for Next.js and Tailwind CSS.",
+    "url": "https://www.reweb.so/"
+  },
+  {
     "title": "Hashnode — Build blogs and API docs for developers and teams.",
     "description": "Hashnode empowers developers and teams to effortlessly create blogs, API documentation, and developer hubs. Enjoy a lightning-fast, AI-powered platform with customizable workflows, GitHub sync, and easy-to-use MDX editing. Trusted by over 4 million developers every month.",
     "url": "https://hashnode.com/"
